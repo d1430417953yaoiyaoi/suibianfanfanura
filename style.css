@@ -1,0 +1,118 @@
+
+   body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #a8ece9, #f9d7e3);
+}
+
+.header {
+  background-color: #a8ece9;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.header img {
+  width: 120px;
+  height: 120px;
+}
+
+.title {
+  background-color: transparent;
+  padding: 10px 0;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */
+  padding: 15px;
+  font-size: 15px;
+  color: black;
+  line-height: 1.7;
+  margin: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 轻微阴影 */
+}
+
+/* 图片默认样式 */
+.content img {
+  width: 113.4px;
+  height: 160px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* 动画过渡效果 */
+}
+
+/* 图片悬停动画 */
+.content img:hover {
+  transform: scale(1.05); /* 放大 */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 阴影效果 */
+}
+
+.content img.square {
+  width: 160px;
+  height: 160px;
+  object-fit: cover; /* 确保图片保持比例填充到正方形 */
+}
+
+.content img.mylove {
+  width: 160px;
+  height: 190px;
+  object-fit: cover; /* 特殊改图片格式 */
+}
+
+.content img.sbsl {
+  width: 250px;
+  height: 100px;
+  object-fit: cover; /* 特殊改图片格式 */
+}
+
+.content a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+/* 链接悬停动画 */
+.content a:hover {
+  text-decoration: underline; /* 链接文字下划线 */
+}
+
+.flex-container {
+  display: flex;
+ flex-direction:column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flex-container img {
+  flex-shrink: 0;
+  border-radius: 5px;
+}
+
+.section {
+  background-color: rgba(255, 255, 255, 0.5); /* 半透明背景 */
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  color: black;
+  line-height: 1.7;
+  margin: 10px 20px;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #fed6e3;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: black;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+ 
