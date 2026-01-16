@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
 
-  /* 多段柔和渐变：淡紫 → 淡蓝（接近你给的图片） */
+  /* 多段柔和渐变：淡紫 → 淡蓝 */
   background: linear-gradient(
     135deg,
     #f0dcff 0%,
